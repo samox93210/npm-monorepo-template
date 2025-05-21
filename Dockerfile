@@ -1,4 +1,4 @@
-FROM node:23.0.0
+FROM node:22.8.0
 
 RUN apk add git
 RUN apk add --no-cache --upgrade grep
